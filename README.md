@@ -27,7 +27,7 @@ StudyKit sends the notes to Google's Gemini API. Use sample notes for the demo. 
 
 ## What to demo
 
-[Watch the interaction recording](StudyKit-demo-simulated.webm). It uses simulated Ollama responses to demonstrate flashcards, the quiz, missed-question review, and an invalid-JSON error. The current app uses Gemini.
+[Download the live Gemini demo](StudyKit-demo.webm?raw=true). It shows generation from sample notes, revealing a flashcard, quiz feedback, and retrying a missed question.
 
 1. Start on the empty screen and select **Use example**. Generate a study set and reveal a flashcard.
 2. Open **Quiz**, intentionally miss a question, finish the round, and select **Retry missed questions**.
@@ -46,6 +46,6 @@ Run `npm test` to exercise the model response contract and proxy failure paths. 
 
 ## AI usage and time
 
-Codex helped implement the app, outline failure handling, write tests, and draft this README. The generation feature uses the Gemini API for generation and quiz review. The time below covers this assisted implementation. Record any additional time spent reviewing, changing, or preparing the submission.
+Codex helped implement the app, write tests, and prepare the README and demo. The app uses the Gemini API for generation and quiz review.
 
-Time spent on the assisted build and verification was about 10 minutes.
+The initial assisted build and verification took about 10 minutes. Follow-up work on quiz review, Gemini integration, adaptive question counts, and the redesign was not timed.
